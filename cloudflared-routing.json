@@ -1,0 +1,11 @@
+{
+  "rules": [
+    {
+      "match": "host =~ \".*\" AND path startsWith \"/\"",
+      "action": "serve",
+      "params": {
+        "url": "http://localhost:9000"
+      }
+    }
+  ]
+}

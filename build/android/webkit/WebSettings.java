@@ -1,0 +1,6 @@
+package android.webkit;
+public class WebSettings {
+    public void setJavaScriptEnabled(boolean b) {}
+    public void setDomStorageEnabled(boolean b) {}
+    public void setAllowFileAccess(boolean b) {}
+}

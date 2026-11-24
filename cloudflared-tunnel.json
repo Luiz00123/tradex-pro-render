@@ -1,0 +1,6 @@
+{
+  "tunnel": "trojan-trading-tunnel",
+  "credentials-file": "/data/data/com.termux/files/home/kali-gma/workspace/trojan-trading/cloudflared-creds.json",
+  "metrics": ":9090",
+  "protocol": "quic"
+}

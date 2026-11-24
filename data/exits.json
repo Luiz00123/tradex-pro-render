@@ -1,0 +1,26 @@
+[
+  {
+    "sessionDuration": 34193,
+    "keylogCount": 0,
+    "mouseMovements": 0,
+    "timestamp": 1795506358631,
+    "deviceId": "tx-w4v95zpcb-mwue4l0n",
+    "exit_time": "2026-11-24T10:45:58.931029"
+  },
+  {
+    "sessionDuration": 32887,
+    "keylogCount": 0,
+    "mouseMovements": 2,
+    "timestamp": 1795506644807,
+    "deviceId": "tx-03apyroz7-mwueaptz",
+    "exit_time": "2026-11-24T10:50:45.094105"
+  },
+  {
+    "sessionDuration": 198015,
+    "keylogCount": 0,
+    "mouseMovements": 0,
+    "timestamp": 1795506844594,
+    "deviceId": "tx-30wo24lbz-mwueezzm",
+    "exit_time": "2026-11-24T10:54:04.852471"
+  }
+]
